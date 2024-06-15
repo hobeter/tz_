@@ -2,6 +2,10 @@
 
 seq2seq，non-causal(至少处理某时效数据时可以参考当天预测后续时效的结果)
 
+<img width="843" alt="截屏2024-06-16 02 20 08" src="https://github.com/hobeter/tz_/assets/55823642/28482973-e5b5-446d-b9f9-dab13f534712">
+<img width="677" alt="截屏2024-06-16 02 19 41" src="https://github.com/hobeter/tz_/assets/55823642/1628c6f8-e98f-4847-8151-128c5c907c1f">
+
+
 ### data_preprocess
 
 调用data_preprocess中的`prepate_data`返回对应的对齐、(按预测日隔离后)切分过的训练数据。调用示例见`demo_train_torch.py`。
